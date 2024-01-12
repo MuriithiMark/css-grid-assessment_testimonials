@@ -1,0 +1,99 @@
+body {
+    background-color: aliceblue;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 900px 300px;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.most-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+}
+
+.top-content {
+    display: grid;
+    grid-template-columns: 66% 280px;
+    column-gap: 20px;
+    margin-right: 0px;
+}
+
+.bottom-content {
+    display: grid;
+    grid-template-columns: 280px 66%;
+    column-gap: 20px;
+    margin-right: 0px;
+}
+
+.side-content {
+    height: 540px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 5px -10px rgb(201, 200, 200);
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 60px 400px;
+    column-gap: 4px;
+    height: 60px;
+}
+
+.large,
+.small {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 5px -10px rgb(201, 200, 200);
+}
+
+.avatar {
+    img {
+        border-radius: 100%;
+    }
+}
+
+.bio {
+    padding: 10px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.quote {
+    font-size: 14px;
+    color: lightgray;
+}
+
+.daniel {
+    background-color: purple;
+}
+
+.jonathan {
+    background-color: rgb(58, 56, 56);
+}
+
+.jeanette {
+    background-color: white;
+}
+
+.patrick {
+    background-color: black;
+}
+
+.daniel,
+.jonathan,
+.patrick {
+    color: white;
+}
